@@ -15,9 +15,6 @@ export function RegistrationForm() {
     lastName: "",
     email: "",
     phone: "",
-    profession: "",
-    experience: "",
-    format: "",
     comments: "",
     agreement: false
   });
@@ -25,15 +22,15 @@ export function RegistrationForm() {
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
+    e.preventDefault(); 
     
     if (!formData.agreement) {
       toast.error("Необходимо согласие на обработку персональных данных");
       return;
     }
 
-    // Simulate form submission
-    toast.success("Заявка отправлена! Мы свяжемся с вами в ближайшее время.");
+    // Simulate form submission TODO!!!
+    toast.success("Заявка отправлена! Мы свяжемся с вами в ближайшее время. !!!!!ПОКА НЕ ДОДЕЛАНО!!!!!");
     setIsSubmitted(true);
   };
 
@@ -57,9 +54,6 @@ export function RegistrationForm() {
                   Спасибо за интерес к нашему курсу. В ближайшее время мы свяжемся с вами 
                   для подтверждения регистрации и отправки реквизитов для оплаты.
                 </p>
-                <Button onClick={() => setIsSubmitted(false)}>
-                  Отправить ещё одну заявку
-                </Button>
               </CardContent>
             </Card>
           </div>
@@ -173,14 +167,7 @@ export function RegistrationForm() {
                 <CardContent className="space-y-4">
                   <div className="flex justify-between items-center p-4 bg-muted/50 rounded-lg">
                     <span>Очное участие</span>
-                    <span className="font-semibold">45 000 ₽</span>
-                  </div>
-                  <div className="flex justify-between items-center p-4 bg-muted/50 rounded-lg">
-                    <span>Онлайн участие</span>
-                    <span className="font-semibold">25 000 ₽</span>
-                  </div>
-                  <div className="text-sm text-muted-foreground">
-                    * Ранняя регистрация до 1 марта — скидка 15%
+                    <span className="font-semibold">29 000 ₽</span>
                   </div>
                 </CardContent>
               </Card>
@@ -196,13 +183,12 @@ export function RegistrationForm() {
                   <p className="text-sm text-muted-foreground">
                     • Банковский перевод<br />
                     • Оплата картой<br />
-                    • Безналичный расчёт для организаций<br />
                     • Рассрочка (уточните у менеджера)
                   </p>
                 </CardContent>
               </Card>
 
-              <Card>
+              {/* <Card>
                 <CardHeader>
                   <CardTitle>Контакты</CardTitle>
                 </CardHeader>
@@ -216,7 +202,7 @@ export function RegistrationForm() {
                     <span>info@fdm-course.ru</span>
                   </div>
                 </CardContent>
-              </Card>
+              </Card> */}
             </div>
           </div>
         </div>

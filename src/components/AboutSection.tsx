@@ -6,7 +6,7 @@ export function AboutSection() {
     {
       icon: <Users className="text-primary" size={32} />,
       title: "Для практикующих специалистов",
-      description: "Врачи, физиотерапевты, массажисты, остеопаты и мануальные терапевты"
+      description: "А также спортивных врачей, остеопатов, массажистов, инструкторов ЛФК"
     },
     {
       icon: <Target className="text-primary" size={32} />,

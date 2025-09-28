@@ -28,7 +28,7 @@ export function Hero() {
             Интенсивный курс по FDM-терапии
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-white/90">
-            Двухдневный курс по клинико-физиологическому объяснению и клиническому применению модели фасциальных дисторсий
+            Двухдневный курс по клинико-физиологическому объяснению и клиническому применению модели фасциальных дисторсий от Президента Европейской Ассоциации FDM Евгения Хаимова
           </p>
 
           {/* Course Details */}
@@ -37,21 +37,21 @@ export function Hero() {
               <Calendar className="text-accent" size={24} />
               <div className="text-left">
                 <div className="font-semibold">Даты проведения</div>
-                <div className="text-white/80">15-16 марта 2025</div>
+                <div className="text-white/80">28-29 октября 2025</div>
               </div>
             </div>
             <div className="flex items-center justify-center space-x-3 bg-white/10 backdrop-blur-sm rounded-lg p-4">
               <Clock className="text-accent" size={24} />
               <div className="text-left">
                 <div className="font-semibold">Длительность</div>
-                <div className="text-white/80">2 дня, 16 часов</div>
+                <div className="text-white/80">???</div>
               </div>
             </div>
             <div className="flex items-center justify-center space-x-3 bg-white/10 backdrop-blur-sm rounded-lg p-4">
               <MapPin className="text-accent" size={24} />
               <div className="text-left">
-                <div className="font-semibold">Формат</div>
-                <div className="text-white/80">Очно</div>
+                <div className="font-semibold">Место</div>
+                <div className="text-white/80">Ижевск</div>
               </div>
             </div>
           </div>

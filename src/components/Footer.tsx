@@ -66,15 +66,15 @@ export function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-center space-x-2">
                 <Phone size={16} />
-                <span>+7 (495) 123-45-67</span>
+                <span>+7 (???) ???-??-??7</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Mail size={16} />
-                <span>info@fdm-course.ru</span>
+                <span>???@??.?</span>
               </li>
               <li className="flex items-start space-x-2">
                 <MapPin size={16} className="mt-0.5" />
-                <span>г. Москва, ул. Тверская, 15</span>
+                <span>г. Ижевск, ул. ???, ??</span>
               </li>
             </ul>
           </div>
@@ -83,9 +83,9 @@ export function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Курс</h4>
             <ul className="space-y-2 text-sm text-white/80">
-              <li>15-16 марта 2025</li>
-              <li>16 академических часов</li>
-              <li>Очно и онлайн</li>
+              <li>28-29 октября 2025</li>
+              <li>??? академических часов</li>
+              <li>Очно</li>
               <li>Сертификат включен</li>
             </ul>
           </div>
@@ -94,10 +94,10 @@ export function Footer() {
         <div className="border-t border-white/20 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center text-sm text-white/80">
             <div>
-              © 2025 Образовательный центр "МедПрофи". Все права защищены.
+              © 2025 Образовательный центр "???". Все права защищены.
             </div>
             <div className="mt-4 md:mt-0">
-              <span>Лицензия № 041234 | ИНН 7701234567</span>
+              <span>Лицензия № ??? | ИНН ???</span>
             </div>
           </div>
         </div>

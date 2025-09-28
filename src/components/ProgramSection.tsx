@@ -4,90 +4,75 @@ import { Clock, Users, BookOpen, Activity } from "lucide-react";
 
 export function ProgramSection() {
   const day1Schedule = [
-    {
-      time: "09:00 - 09:30",
-      title: "Регистрация и приветствие",
-      description: "Знакомство с участниками, обзор программы курса"
-    },
-    {
-      time: "09:30 - 11:00",
-      title: "Теоретические основы FDM",
-      description: "История развития модели, основные принципы и концепции"
-    },
-    {
-      time: "11:00 - 11:15",
-      title: "Перерыв",
-      description: ""
-    },
-    {
-      time: "11:15 - 12:45",
-      title: "Анатомия фасциальной системы",
-      description: "Структура и функции фасций, биомеханические свойства"
-    },
-    {
-      time: "12:45 - 13:45",
-      title: "Обеденный перерыв",
-      description: ""
-    },
-    {
-      time: "13:45 - 15:15",
-      title: "Типы фасциальных дисторсий",
-      description: "Классификация, клинические проявления, дифференциальная диагностика"
-    },
-    {
-      time: "15:15 - 15:30",
-      title: "Перерыв",
-      description: ""
-    },
-    {
-      time: "15:30 - 17:00",
-      title: "Практические занятия №1",
-      description: "Базовые техники пальпации и диагностики"
-    }
-  ];
+  {
+    "title": "Общие принципы FDM",
+    "time": "",
+    "description": "Фундаментальные основы фасциальной дисторсионной модели"
+  },
+  {
+    "title": "Дисторсии фасций в FDM",
+    "time": "",
+    "description": "Классификация и типы фасциальных дисторсий"
+  },
+  {
+    "title": "Диагностические техники",
+    "time": "",
+    "description": "Тесты и методы выявления дисторсий"
+  },
+  {
+    "title": "Терапевтические принципы",
+    "time": "",
+    "description": "Общие подходы и методики FDM-терапии"
+  },
+  {
+    "title": "Визуальная диагностика боли",
+    "time": "",
+    "description": "Анализ позы, движений и визуальных маркеров боли"
+  },
+  {
+    "title": "«Язык боли» пациента",
+    "time": "",
+    "description": "Интерпретация вербальных и невербальных описаний боли"
+  },
+  {
+    "title": "Показания и противопоказания",
+    "time": "",
+    "description": "Критерии применения FDM-терапии"
+  }
+];
 
   const day2Schedule = [
-    {
-      time: "09:00 - 10:30",
-      title: "Диагностические техники",
-      description: "Специфические тесты и методы выявления дисторсий"
-    },
-    {
-      time: "10:30 - 10:45",
-      title: "Перерыв",
-      description: ""
-    },
-    {
-      time: "10:45 - 12:15",
-      title: "Лечебные техники FDM",
-      description: "Практическое освоение основных коррекционных методов"
-    },
-    {
-      time: "12:15 - 13:15",
-      title: "Обеденный перерыв",
-      description: ""
-    },
-    {
-      time: "13:15 - 14:45",
-      title: "Клинические случаи",
-      description: "Разбор реальных примеров из практики"
-    },
-    {
-      time: "14:45 - 15:00",
-      title: "Перерыв",
-      description: ""
-    },
-    {
-      time: "15:00 - 16:30",
-      title: "Практические занятия №2",
-      description: "Отработка техник в парах, супервизия"
-    },
-    {
-      time: "16:30 - 17:00",
-      title: "Подведение итогов и сертификация",
-      description: "Вопросы и ответы, выдача сертификатов"
-    }
-  ];
+  {
+    "title": "Практика мануальной техники",
+    "time": "",
+    "description": "Отработка практических навыков FDM-воздействий"
+  },
+  {
+    "title": "Специальная диагностика и терапия",
+    "time": "",
+    "description": "Углубленные методы оценки и коррекции"
+  },
+  {
+    "title": "FDM плечевого пояса",
+    "time": "",
+    "description": ""
+  },
+  {
+    "title": "FDM коленного сустава",
+    "time": "",
+    "description": ""
+  },
+  {
+    "title": "FDM голеностопного сустава",
+    "time": "",
+    "description": ""
+  },
+  {
+    "title": "Клинические примеры",
+    "time": "",
+    "description": "Разбор реальных случаев применения FDM-терапии"
+  }
+];
 
   return (
     <section id="program" className="py-20 bg-muted/50">
@@ -107,14 +92,14 @@ export function ProgramSection() {
             <Card className="text-center">
               <CardContent className="p-6">
                 <Clock className="mx-auto mb-4 text-primary" size={40} />
-                <h3 className="font-semibold mb-2">16 часов</h3>
+                <h3 className="font-semibold mb-2">?? часов</h3>
                 <p className="text-muted-foreground text-sm">Академических часов</p>
               </CardContent>
             </Card>
             <Card className="text-center">
               <CardContent className="p-6">
                 <Users className="mx-auto mb-4 text-primary" size={40} />
-                <h3 className="font-semibold mb-2">До 20 человек</h3>
+                <h3 className="font-semibold mb-2">До ?? человек</h3>
                 <p className="text-muted-foreground text-sm">В группе</p>
               </CardContent>
             </Card>
@@ -203,11 +188,9 @@ export function ProgramSection() {
               <div>
                 <h4 className="font-semibold mb-4">В стоимость включено:</h4>
                 <ul className="space-y-2 text-muted-foreground">
-                  <li>• Методические материалы</li>
+                  <li>• Цветное методическое пособие с полями для заметок</li>
                   <li>• Сертификат о прохождении курса</li>
                   <li>• Кофе-брейки</li>
-                  <li>• Доступ к записям лекций (30 дней)</li>
-                  <li>• Поддержка куратора после курса</li>
                 </ul>
               </div>
               <div>
@@ -215,8 +198,8 @@ export function ProgramSection() {
                 <ul className="space-y-2 text-muted-foreground">
                   <li>• Удобную одежду для практики</li>
                   <li>• Блокнот для записей</li>
-                  <li>• Сменную обувь</li>
-                  <li>• Полотенце для практических занятий</li>
+                  {/* <li>• Сменную обувь</li> */}
+                  {/* <li>• Полотенце для практических занятий</li> */}
                 </ul>
               </div>
             </div>

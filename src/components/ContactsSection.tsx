@@ -26,38 +26,39 @@ export function ContactsSection() {
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-6">
-                <div className="flex items-start space-x-4">
-                  <Phone className="text-primary mt-1" size={20} />
-                  <div>
-                    <h4 className="font-semibold mb-1">Телефон</h4>
-                    <p className="text-muted-foreground">+7 (495) 123-45-67</p>
-                    <p className="text-sm text-muted-foreground">Звонки принимаем ежедневно с 9:00 до 20:00</p>
-                  </div>
-                </div>
 
-                <div className="flex items-start space-x-4">
+                {/* <div className="flex items-start space-x-4">
                   <Mail className="text-primary mt-1" size={20} />
                   <div>
-                    <h4 className="font-semibold mb-1">Email</h4>
-                    <p className="text-muted-foreground">info@fdm-course.ru</p>
-                    <p className="text-sm text-muted-foreground">Отвечаем в течение 24 часов</p>
+                  <h4 className="font-semibold mb-1">Email</h4>
+                  <p className="text-muted-foreground">info@fdm-course.ru</p>
+                  <p className="text-sm text-muted-foreground">Отвечаем в течение 24 часов</p>
                   </div>
-                </div>
+                  </div> */}
 
                 <div className="flex items-start space-x-4">
                   <MessageCircle className="text-primary mt-1" size={20} />
                   <div>
-                    <h4 className="font-semibold mb-1">Мессенджеры</h4>
-                    <p className="text-muted-foreground">WhatsApp, Telegram</p>
-                    <p className="text-sm text-muted-foreground">+7 (999) 123-45-67</p>
+                    <h4 className="font-semibold mb-1">Telegram</h4>
+                    <p className="text-muted-foreground">@*******</p>
+                    <p className="text-sm text-muted-foreground">+7 (***) **-**-**</p>
                   </div>
                 </div>
 
-                <div className="pt-4">
+                <div className="flex items-start space-x-4">
+                  <Phone className="text-primary mt-1" size={20} />
+                  <div>
+                    <h4 className="font-semibold mb-1">Телефон</h4>
+                    <p className="text-muted-foreground">+7 (***) ***-**-**</p>
+                    <p className="text-sm text-muted-foreground">Звонки принимаем ежедневно с 9:00 до 20:00</p>
+                  </div>
+                </div>
+
+                {/* <div className="pt-4">
                   <Button className="w-full">
                     Связаться с нами
                   </Button>
-                </div>
+                </div> */}
               </CardContent>
             </Card>
 
@@ -73,28 +74,28 @@ export function ContactsSection() {
                 <div>
                   <h4 className="font-semibold mb-2">Очные занятия</h4>
                   <p className="text-muted-foreground mb-2">
-                    Медицинский центр "Профи Мед"<br />
-                    г. Москва, ул. Тверская, д. 15, стр. 2
+                    ????????????<br />
+                    г. Ижевск, ул. ??????, д. ??
                   </p>
-                  <p className="text-sm text-muted-foreground">
+                  {/* <p className="text-sm text-muted-foreground">
                     5 минут пешком от м. Тверская или Пушкинская
-                  </p>
+                  </p> */}
                 </div>
 
-                <div>
+                {/* <div>
                   <h4 className="font-semibold mb-2">Онлайн занятия</h4>
                   <p className="text-muted-foreground mb-2">
                     Платформа: Zoom<br />
                     Ссылка для подключения высылается за день до начала курса
                   </p>
-                </div>
+                </div> */}
 
                 <div className="flex items-start space-x-4">
                   <Clock className="text-primary mt-1" size={20} />
                   <div>
                     <h4 className="font-semibold mb-1">Время проведения</h4>
-                    <p className="text-muted-foreground">15-16 марта 2025</p>
-                    <p className="text-muted-foreground">09:00 - 17:00 (оба дня)</p>
+                    <p className="text-muted-foreground">28-29 октября 2025</p>
+                    <p className="text-muted-foreground">??:00 - ??:00 (оба дня)</p>
                   </div>
                 </div>
               </CardContent>
@@ -165,20 +166,20 @@ export function ContactsSection() {
             </h3>
             <div className="text-center">
               <h4 className="font-semibold mb-2">
-                Образовательный центр "МедПрофи"
+                Образовательный центр "???"
               </h4>
               <p className="text-muted-foreground mb-4">
-                Лицензия на образовательную деятельность № 041234 от 15.06.2020
+                Лицензия на образовательную деятельность № ???? от ????
               </p>
               <div className="grid md:grid-cols-3 gap-4 text-sm text-muted-foreground">
                 <div>
-                  <strong>ИНН:</strong> 7701234567
+                  <strong>ИНН:</strong> ???
                 </div>
                 <div>
-                  <strong>ОГРН:</strong> 1157746123456
+                  <strong>ОГРН:</strong> ???
                 </div>
                 <div>
-                  <strong>Р/с:</strong> 40702810400000123456
+                  <strong>Р/с:</strong> ???
                 </div>
               </div>
             </div>
